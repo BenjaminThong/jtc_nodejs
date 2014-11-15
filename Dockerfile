@@ -1,9 +1,4 @@
-#
-# Nginx Dockerfile
-#
-
-# Pull base image
-FROM dockerfile/nodejs
+FROM node:0.10
 
 # Define working directory.
 WORKDIR /data
